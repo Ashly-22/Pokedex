@@ -24,7 +24,7 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+Clone de proyect (https://github.com/Ashly-22/Pokedex.git)
 ```
 
 Install de package necesary
