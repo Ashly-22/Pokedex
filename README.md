@@ -32,8 +32,15 @@ Install de package necesary
 ```
 npm install
 ```
+To start the project
 
-End with an example of getting some data out of the system or using it for a little demo
+```
+npm start
+```
+
+You're ready!
+
+![image](https://user-images.githubusercontent.com/38229758/169646061-1590dc2d-392a-474a-abfb-adfab30cd865.png)
 
 
 
