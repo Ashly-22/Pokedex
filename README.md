@@ -21,10 +21,10 @@ npm install -g npm@latest
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+Clone de proyect
 
 ```
-Clone de proyect (https://github.com/Ashly-22/Pokedex.git)
+https://github.com/Ashly-22/Pokedex.git
 ```
 
 Install de package necesary
