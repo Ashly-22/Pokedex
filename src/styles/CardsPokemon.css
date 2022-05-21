@@ -1,0 +1,86 @@
+body {
+  background-color: #e34040;
+}
+
+pokemon-scroll {
+  align-items: left;
+}
+
+nav {
+  width: 339px;
+  padding: 5px;
+  border: 1px solid black;
+}
+scroll-container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border-radius: 10px;
+  
+}
+
+.image-cont {
+  width: 25px;
+}
+
+.container-cards {
+  background-color: #660707;
+  border: 3px solid #ff8585;
+  border-radius: 10px;
+  margin: 17px;
+  padding: 0.9px;
+  width: 30%;
+  height: 95vh;
+}
+
+.card{
+  background-color: #480202;
+  color: white;
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  text-align: center;
+  align-items: center;
+  font-size: 10px;
+}
+.card:hover{
+  background-color: #700808;
+}
+
+h1{
+  font-size: 20px;
+}
+
+.container-components {
+  display: flex;
+  flex-direction: row;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 90%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  
+  background: #b13333 ;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e34040;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
