@@ -8,7 +8,7 @@ const PokemonView = ({ infoPokemon, species, EvolutionImages}) => {
         <div className="panel-info">
           <div className="container-info">
             <div className="cont-imag">
-              <img className="principal-image" src={infoPokemon.sprites.other.dream_world.front_default} alt={infoPokemon.name}/>
+              <img className="principal-image" src={infoPokemon.sprites.other['official-artwork'].front_default} alt={infoPokemon.name}/>
               <h2>{infoPokemon.name}</h2>
               <div className="Types">{infoPokemon.types.map((poke) => {return (<div className="group" key={poke.type.name}><h5>{poke.type.name}</h5></div>);})}
               </div>

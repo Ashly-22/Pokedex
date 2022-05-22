@@ -39,7 +39,7 @@ const Cardspokemons = ({ values }) => {
     const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${resp.id}`);
     const resp2 = await res.json();
     let image = {
-      "image":resp2.sprites.other.dream_world.front_default,
+      "image":resp2.sprites.other['official-artwork'].front_default,
       "id":resp.id,
       "name":resp.name
     };
